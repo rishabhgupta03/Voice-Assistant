@@ -10,9 +10,11 @@ def send(to, sub, body):
 
     conn.starttls()
 
-    conn.login('rg12032001@gmail.com', 'J7d@!Mf%')
+    conn.login('YOUR_EMAIL_ADDRESS', 'PASSWORD')
+    
+    
 
-    conn.sendmail('rg12032001@gmail.com', to, 'Subject : ' + sub + '\n\n' + body)
+    conn.sendmail('YOUR_EMAIL_ADDRESS', to, 'Subject : ' + sub + '\n\n' + body)
 
     conn.quit()
 
