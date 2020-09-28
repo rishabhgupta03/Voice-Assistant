@@ -2,9 +2,7 @@
 
 This is a simple virtual assistant written in Python 3.
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1eDrGoe3ID1LTuLvyO1KbA7xZf6Pkf-oH/view?usp=sharing"></iframe>
-</figure>
+[![Watch the video](https://drive.google.com/file/d/1eDrGoe3ID1LTuLvyO1KbA7xZf6Pkf-oH/view?usp=sharing")](https://drive.google.com/file/d/1eDrGoe3ID1LTuLvyO1KbA7xZf6Pkf-oH/view?usp=sharing")
 
 ## Voice-Assistant Architecture
 Virtual assistants are built from the following components:
