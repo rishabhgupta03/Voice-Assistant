@@ -2,6 +2,10 @@
 
 This is a simple virtual assistant written in Python 3.
 
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1eDrGoe3ID1LTuLvyO1KbA7xZf6Pkf-oH/view?usp=sharing"></iframe>
+</figure>
+
 ## Voice-Assistant Architecture
 Virtual assistants are built from the following components:
 * Voice Activity Detection (VAD) - this determines when the user starts and stops speaking. Voice-Assistant uses the python [SpeechRecognition](https://github.com/Uberi/speech_recognition) module for VAD.
