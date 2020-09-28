@@ -19,6 +19,9 @@ Voice-Assistant runs well on Windows. For the easiest setup, you should probably
 
 ```dos
 (base) C:\Projects\Voice-Assistant>conda env create -f environment.yml
+```
+To run voice assistant, activate the virtual environment from the Anaconda prompt and use python to run main.py:
+```dos
 (base) C:\Projects\Voice-Assistant>conda activate Voice-Assistant
 (Voice-Assistant) C:\Projects\Voice-Assistant>python main.py
 ```
@@ -30,7 +33,7 @@ Most Linux distros already have Python 3 installed.
 
 You should always use Voice Assistant within a virtual environment, especially on Linux where system utilities are likely to be written in your system Python. Getting your system environment messed up when a required library gets changed is never fun.
 
-On Debian derivates like Ubuntu, Mint, Raspbian, etc. you can install a virtual environment using VirtualEnvWrapper:
+On Debian derivatives like Ubuntu, Mint, Raspbian, etc. you can install a virtual environment using VirtualEnvWrapper:
 
 ```bash
 ~/Voice-Assistant $ sudo apt install virtualenvwrapper
@@ -40,15 +43,16 @@ On Debian derivates like Ubuntu, Mint, Raspbian, etc. you can install a virtual 
 (Voice-Assistant) ~/Voice-Assistant $
 ```
 
-You will probably need to install eSpeak and PortAudio. On Debian derivatives like Ubuntu, Mint, Raspbian, etc. these can be installed with:
+You will probably need to install eSpeak and PortAudio. On Debian derivatives, these can be installed with:
 
 ```
-Voice-Assistant $ sudo apt install portaudio19-dev libespeak-dev
+~/Voice-Assistant $ sudo apt install portaudio19-dev libespeak-dev
 ```
 then activate your virtual environment and use the requirements.txt file to load the required modules:
 ```
 ~/Voice-Assistant $ workon Voice-Assistant
 (Voice-Assistant) ~/Voice-Assistant $ pip install -r requirements.txt
+```
 
 To run Voice-Assistant, you should activate the virtual environment, then use python to run the main.py script:
 
